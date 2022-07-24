@@ -6,6 +6,15 @@ tarea para el cargo de desarrollador fullstack para Empresa Umine  Desarrollado 
 ```bash
 Laravel Framework 9.21.6
 ```
+```bash
+Composer 2.3.10
+```
+```bash
+Composer 2.3.10
+```
+```bash
+php 8.1.6
+```
 
 ## PARA INICIAR
 
