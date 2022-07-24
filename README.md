@@ -2,6 +2,11 @@
 
 tarea para el cargo de desarrollador fullstack para Empresa Umine  Desarrollado por [Nelson Araya](https://github.com/NelsonAraya).
 
+## DEPENDENCIAS
+```bash
+Laravel Framework 9.21.6
+```
+
 ## PARA INICIAR
 
 para comenzar la instalacion de nuestra API vamos a clonar nuestro repositorio
