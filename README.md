@@ -4,7 +4,7 @@ tarea para el cargo de desarrollador fullstack para Empresa Umine  Desarrollado 
 
 ## PARA INICIAR
 
-para comenzar la instalacion del front vamos a clonar nuestro repositorio
+para comenzar la instalacion de nuestra API vamos a clonar nuestro repositorio
 
 ### `git clone https://github.com/NelsonAraya/ApiBackEndlaravelUmine.git`
 Ingresaremos a nuestro directorio 
@@ -12,7 +12,7 @@ Ingresaremos a nuestro directorio
 Ejecutarmeos en nuestra Consola el siguiente comando para instalar nuestras dependencias
 ### `composer install`
 Modificaremos el siguiente Archivo
-### `.env.example > .env`
+### `.env.example => .env`
 En nuestro servidor de BD crearemos una nueva base de datos  con el nombre 
 ### `umine`
 Modificaremos los siguientes valores en nuestro archivo .env
@@ -22,7 +22,7 @@ Modificaremos los siguientes valores en nuestro archivo .env
 Cabe mencionar que usuariobd y passbd corresponden a el usuario y password de su servidor de BD
 Ahora ejecutaremos el siguiente comando en nuestra consola dentro de nuestro directorio
 ### `php artisan migrate --seed`
-lo cual generara las tablas y los valores por defecto que trae el sistema para poder iniciar
+lo cual generara las tablas con los valores por defecto que trae el sistema para poder iniciar.
 Ahora procederemos ha levantar nuestra api con el siguiente comando 
 ### `php artisan serve`
 para poder iniciar sesion en nuestro sistema ocuparemos el usuario 
