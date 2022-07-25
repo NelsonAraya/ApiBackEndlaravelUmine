@@ -1,4 +1,5 @@
-# PASOS DE INSTALACION SYS UMINE-TAREA -- BACKEND LARAVEL
+# GUIA DE INSTALACION SYS UMINE-PRUEBA TECNICA
+# -- BACKEND LARAVEL --
 
 Tarea para el cargo de desarrollador fullstack para Empresa Umine  Desarrollado por [Nelson Araya](https://github.com/NelsonAraya).
 
