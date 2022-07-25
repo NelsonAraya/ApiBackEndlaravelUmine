@@ -28,14 +28,13 @@ Modificaremos el nombre del siguiente Archivo
 En nuestro servidor de BD crearemos una nueva base de datos  con el nombre 
 ### `umine`
 Modificaremos los siguientes valores en nuestro archivo .env
-### `DB_DATABASE=umine`
 ### `DB_USERNAME=usuariobd`
 ### `DB_PASSWORD=passbd`
 Cabe mencionar que usuariobd y passbd corresponden a el usuario y password de su servidor de BD
 Ahora ejecutaremos el siguiente comando en nuestra consola dentro de nuestro directorio
 ### `php artisan migrate --seed`
 lo cual generara las tablas con los valores por defecto que trae el sistema para poder iniciar.
-Ahora procederemos ha levantar nuestra api con el siguiente comando 
+Ahora procederemos a levantar nuestra api con el siguiente comando 
 ### `php artisan serve`
 para poder iniciar sesion en nuestro sistema ocuparemos el usuario 
 ### `naraya.vatrogasci@gmail.com`
