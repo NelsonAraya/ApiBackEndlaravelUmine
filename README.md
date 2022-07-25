@@ -28,9 +28,9 @@ Ejecutaremos en nuestra Consola el siguiente comando para instalar nuestras depe
 ```bash
 composer install
 ```
-Modificaremos el nombre del siguiente Archivo
+Modificaremos el nombre del siguiente Archivo y lo dejaremos como .env
 ```bash
-env.example por .env
+mv env.example .env
 ```
 En nuestro servidor de BD crearemos una nueva base de datos  con el nombre umine
 ```bash
@@ -38,10 +38,24 @@ CREATE DATABASE umine;
 ```
 Modificaremos los siguientes valores en nuestro archivo .env
 ```bash
-DB_USERNAME=usuariobd
-DB_PASSWORD=passbd
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=umine
+DB_USERNAME=root
+DB_PASSWORD=
 ```
-Cabe mencionar que usuariobd y passbd corresponden a el usuario y password de su servidor de BD
+```php
+#direccion de nuesto servidor de BD
+DB_HOST=127.0.0.1
+#puerto del servidor de BD
+DB_PORT=3306
+#Nombre de la base de datos por defecto esta umine
+DB_DATABASE=umine
+#usuario de nuestra base de datos a utilizar
+DB_USERNAME=root
+#password del usuario de la bd a utilizar
+DB_PASSWORD=
+```
 Ahora ejecutaremos el siguiente comando en nuestra consola dentro de nuestro directorio
 ```bash
 php artisan migrate --seed
